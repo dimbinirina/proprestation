@@ -1,0 +1,54 @@
+@media screen and (max-width: 575px){
+  .kl-all-more-prestation{left: 0;}
+  .kl-prochain-prestation{right: 0;}
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+  .kl-all-more-prestation{left: 0;}
+  .kl-prochain-prestation{right: 0;}
+}
+@media screen and (max-width: 991px){
+  .kl-banner-page{margin-top: 0;}
+  .kl-navbar-menu {background: rgba(33, 33, 33, 0.8);}
+  .kl-menu{margin-top: 0;}
+  .navbar-brand img {width: 100px;}
+  .kl-navbar-menu .container .navbar-toggler {border: none !important;}
+  .kl-navbar-menu .container .navbar-toggler:focus{outline: none !important;}
+  .kl-navbar-menu .container .navbar-toggler i { color: #fff;}
+  .kl-reseau-socio-mobile{display: block;}
+  .kl-reseau-socio{display: none;}
+  .kl-compte {margin-left: auto;}
+  .kl-slider{margin-top: 0;}
+  .kl-reseau-socio-mobile li{margin-bottom: 20px;}
+  .kl-pro-prestation h2::after{position: initial;}
+}
+@media screen and (max-width: 767px){
+  .kl-bloc-propos .container{padding-left: 15px; padding-right: 15px;}
+  .kl-icon-achat{margin-top: 30px; margin-bottom: 20px;}
+  .kl-content-achat{margin-top: 20px;}
+  .kl-bloc-mission .container{padding-left: 15px; padding-right: 15px;}
+  .kl-img-mission {margin-bottom: 30px;}
+  .kl-footer{text-align: center;}
+  .kl-newsletter{margin-top: 0;}
+  .kl-submit-newsletter, .kl-img-submit {top: 30px;right: 0;}
+  .kl-footer-col-2{margin-left: 0;}
+  .kl-input-newsletter{width: 100% !important; left: 0;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .kl-footer-col-2{margin-left: 0;}
+  .kl-img-submit, .kl-submit-newsletter {top: 30px;right: 0;}
+  .kl-input-newsletter{width: 100% !important; left: 0;}
+  .kl-title-newsletter{margin-left: 0;}
+  .kl-mail::before{left: -70px;}
+  .kl-all-more-prestation{left: 0;}
+  .kl-prochain-prestation{right: 0;}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .kl-all-more-prestation{left: 0;}
+  .kl-prochain-prestation{right: 0;}
+}
+@media screen and (min-width: 1200px) and (max-width: 1239px){
+  .kl-all-more-prestation{left: 80px;}
+}
+@media screen and (max-width: 1199px){
+  .kl-bloc-prestation .container{padding: 0 30px;}
+}
